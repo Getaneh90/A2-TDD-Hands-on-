@@ -11,3 +11,5 @@ def check_pwd(pwd):
     if not any(char.isupper() for char in pwd):
         return False
 
+    if not any(int for char in pwd):
+        return False
