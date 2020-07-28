@@ -13,6 +13,9 @@ class MyTestCase(unittest.TestCase):
        input = 'DLFKDADEDCVV'
        self.assertFalse(check_pwd((input)))
 
+    def test3(self):
+        input = 'asdfghooomjk'
+        self.assertFalse(check_pwd(input))
 
 
 if __name__ == '__main__':
