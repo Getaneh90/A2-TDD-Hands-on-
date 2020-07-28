@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
 
     def test2(self):
        lowerCase = string.ascii_lowercase
-       self.assertTrue(check_pwd((lowerCase)))
+       self.assertFalse(check_pwd((lowerCase)))
 
 
 if __name__ == '__main__':
