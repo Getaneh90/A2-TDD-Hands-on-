@@ -13,3 +13,4 @@ def check_pwd(pwd):
 
     if not any(int for char in pwd):
         return False
+
