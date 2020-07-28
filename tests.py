@@ -10,8 +10,8 @@ class MyTestCase(unittest.TestCase):
        self.assertFalse(check_pwd(input))
 
     def test2(self):
-       lowerCase = string.ascii_lowercase
-       self.assertFalse(check_pwd((lowerCase)))
+       input = 'DLFKDADEDCVV'
+       self.assertFalse(check_pwd((input)))
 
 
 
