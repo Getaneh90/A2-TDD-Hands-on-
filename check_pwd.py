@@ -14,3 +14,6 @@ def check_pwd(pwd):
     if not any(int for char in pwd):
         return False
 
+    sym = '~`!@#$%^&*()_+-='
+    if not any(sym for char in pwd):
+        return False

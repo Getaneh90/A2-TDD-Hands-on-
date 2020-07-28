@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
 
     def test5(self):
         input = '65gkjhFSDGF5hg'
-        self.assertTrue(check_pwd(input))
+        self.assertFalse(check_pwd(input))
 
 if __name__ == '__main__':
     unittest.main()
